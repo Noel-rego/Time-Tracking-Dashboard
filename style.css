@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-style:; */
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+}
