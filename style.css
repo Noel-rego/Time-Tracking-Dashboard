@@ -17,17 +17,13 @@ main{
 
 .maindiv{
     display:flex;
-    height:350px;/*something seems to be wrong here*/
-    /* height:100%;
-    max-height:900px; */
     width: 100%;
     max-width: 1000px;
     background-color: hsl(226, 43%, 10%); 
-
+   
 }
 .left-side{
-    height:100%;
-    max-height:350px;
+    height:367px;
     width: 100%;
     max-width: 200px;
     background-color: hsl(235, 46%, 20%);
@@ -35,8 +31,7 @@ main{
 
 }
 .profile{
-    height:100%;
-    max-height:250px;
+    height: 245px;
     width: 100%;
     max-width: 200px;
     background-color: hsl(246, 80%, 60%);
@@ -59,7 +54,7 @@ main{
 /*check whats wong here*/
 .Daily, .Weekly, .Monthly{
     padding-left:20px;
-    padding-top: 10px;
+    padding-top: 15px;
     color:hsl(235, 45%, 61%);
 }
 .Daily:hover, .Weekly:hover, .Monthly:hover{
@@ -72,8 +67,6 @@ main{
     width: 100px;
 
 }
-
-
 .right-side{
     display:flex;
     flex-wrap: wrap;
@@ -156,7 +149,6 @@ main{
 .hrs{
     padding-left: 10px;
 }
-
 
 
 
