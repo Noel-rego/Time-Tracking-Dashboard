@@ -51,7 +51,7 @@ main{
     font-size: 14px;
 }
 
-/*check whats wong here*/
+
 .Daily, .Weekly, .Monthly{
     padding-left:20px;
     padding-top: 15px;
@@ -151,4 +151,126 @@ main{
 }
 
 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+@media (max-width:768px) {
+    main{
+        padding: 20px 0;
+    }
+
+    .maindiv{
+        flex-direction: column;
+        width: 90%;        /* was 90% + max-width 400px — could still overflow on very narrow phones */
+        max-width: 340px;  
+        padding-right: 45px;
+    }
+
+    .left-side{
+        width: 100%;
+        max-width: 100%;
+        min-height: 150px; 
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .profile{
+        display: flex;
+        max-width: 100%;
+        height: 90px;         /* was a fixed 245px — too tall now that content is smaller */
+        padding: 15px 20px;
+        border-radius: 15px;
+    }
+    .profilepic{
+        height: 42px;         /* was 40px */
+        width: 42px;
+        margin-top: 0;
+    }
+    .name{
+        font-size: 16px;     
+        margin-left: 10px;
+        margin-top: 9px;
+    }
+    .name-for{
+        font-size: 12px;
+        padding-top: 4px;
+        margin-left: 10px;
+    }
+
+    .Daily, .Weekly, .Monthly{
+        padding-left: 0;
+        padding-top: 30px;
+        font-size: 17px;
+
+    }
+
+    .right-side{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box{
+        width: 100%;
+        min-height: 130px;   /* ← add this — bumps up overall card height */
+        height: auto;
+        margin-left: 0;
+        margin-top: 16px;     
+        padding-top: 28px;    
+        border-radius: 10px;
+        position: relative;
+    }
+    #workbox{ margin-top: 16px; }
+    .work{
+        font-weight: 600;
+    }
+
+    .print{
+        position: absolute;
+        top: -1px;      
+        right: 16px; 
+        height: 22px;        
+        width: 22px;
+        margin: 0;
+    }
+
+    .info{
+        height: auto;
+        padding: 16px;        
+        gap: 8px;             
+        min-height: 120px; 
+    }
+
+    .hours{
+        font-size: 24px;   
+        font-weight: 100;
+        color:hsl(236, 100%, 87%);
+        margin-right: 110px;
+    }
+
+    .last-week{
+        font-size: 13px;
+        padding-top: 33px;
+    }
+    .balancing{
+        display:flex;
+        flex-direction: column;
+        padding-left:10px ;
+    }
+    .balance{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .dots{
+        margin-left: 220px;
+    }
+}
 
