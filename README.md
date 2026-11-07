@@ -24,14 +24,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
 - Solution URL:(https://github.com/Noel-rego/Time-Tracking-Dashboard/blob/main/README.md)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://noel-rego.github.io/Time-Tracking-Dashboard/)
 
 ## My process
 
